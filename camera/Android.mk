@@ -96,7 +96,7 @@ ifeq ($(USE_DEVICE_SPECIFIC_CAMERA),true)
       LOCAL_C_INCLUDES+= $(call project-path-for,qcom-display)/libgralloc
       LOCAL_C_INCLUDES+= $(call project-path-for,qcom-display)/libgenlock
       LOCAL_C_INCLUDES+= frameworks/native/include/media/hardware
-      LOCAL_C_INCLUDES+= $(call project-path-for,qcom-media)/libstagefrighthw
+      LOCAL_C_INCLUDES+= hardware/qcom/media/default/msm8960/libstagefrighthw
 
       LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
       LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include/media
