@@ -15,4 +15,7 @@
 #
 $(call inherit-product, device/lge/mako/full_mako.mk)
 
+# Inherit some common AOSP stuff.
+$(call inherit-product, vendor/aosp/common.mk)
+
 PRODUCT_NAME := aosp_mako
